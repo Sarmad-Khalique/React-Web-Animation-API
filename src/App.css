@@ -1,0 +1,51 @@
+#pickachu {
+  position: absolute;
+  bottom: 25px;
+  right: 29px;
+  z-index: -1;
+}
+
+#background-image {
+  width: 100%;
+  height: 100%;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+}
+
+.tree-image {
+  width: 280px;
+  height: 385px;
+  z-index: 10;
+}
+
+#tree-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.increase-button {
+  margin: 5px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.increase-button button {
+  background-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.increase-button button:hover {
+  cursor: pointer;
+}
